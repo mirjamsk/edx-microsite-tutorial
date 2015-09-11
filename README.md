@@ -1,2 +1,3 @@
-# edx-microsite
+# Edx microsite tutorial
+
 Edx microsite tutorial

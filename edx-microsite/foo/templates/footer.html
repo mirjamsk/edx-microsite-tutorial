@@ -1,0 +1,26 @@
+## mako
+<%!
+from django.core.urlresolvers import reverse
+from django.utils.translation import ugettext as _
+from microsite_configuration import microsite
+%>
+
+
+<div class="wrapper wrapper-footer">
+  <footer id="footer-openedx">
+    <div class="colophon">
+      <div class="colophon-about">
+          <nav class="nav-colophon">
+            <ol>
+                <li>Footer</li>
+                <li><a href="${reverse('about')}">${_("About")}</a></li>
+                <li><a href="${reverse('faq')}">${_("Faq")}</a></li>
+                <li><a href="${reverse('press')}">${_("Press")}</a></li>
+                <li><a href="${reverse('contact')}" class="active">${_("Contact")}</a></li>
+                <li><a href="${reverse('tos')}">${_("Terms Of Service")}</a></li>
+            </ol>
+          </nav>
+      </div>
+    </div>
+  </footer>
+</div>
