@@ -6,7 +6,7 @@ This tutorial extends the [Microsites Theming overview](https://github.com/edx/e
  127.0.0.1			foo.localhost
 ```
 + If you are developing locally, stop all other running vagrant images of Open edX
-+ Copy the *edx-microsite/* directory from this repo inside a parent directory to *edx-platform*. 
++ Copy the *edx-microsite/* directory from this repo inside a parent directory to *edx-platform/*. 
  + This should leave your folder structure looking like this:
 ```
 - /
@@ -18,8 +18,8 @@ This tutorial extends the [Microsites Theming overview](https://github.com/edx/e
       - templates/
   ...
 ```
-+ If you are developing locally, you need to add your newly created *edx-microsite/* folder to vagrant's [synced folders](https://docs.vagrantup.com/v2/synced-folders/) by modifying the *Vagranfile*. An example of a configured *Vagrantfile* is provided in this repo
-+ Modify the *lms.env.json* file by adding the following lines:
++ If you are developing locally, you need to add your newly created *edx-microsite/* folder to vagrant's [synced folders](https://docs.vagrantup.com/v2/synced-folders/) by modifying the `Vagranfile`. An example of a configured *Vagrantfile* is provided in this repo
++ Edit the `lms.env.json` file by adding the following lines:
 ```
 ...
 "FEATURES": {
@@ -55,3 +55,4 @@ This tutorial extends the [Microsites Theming overview](https://github.com/edx/e
 ...
 ```
 *An example of an entire lms.env.json file is provided in the repo*
+
