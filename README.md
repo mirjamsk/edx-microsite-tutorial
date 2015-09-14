@@ -1,7 +1,7 @@
 # Example edx microsite
 This tutorial extends the [Microsites Theming overview](https://github.com/edx/edx-platform/wiki/Microsites-Theming) by providing instructions how to configure and add an example edx-microsite `foo.localhost`.
 
-+ Edit the */etc/hosts* file on your host machine via `sudo nano /etc/hosts` by adding the following line 
++ Edit the */etc/hosts*  file on your host machine via `sudo nano /etc/hosts` by adding the following line 
 ```
  127.0.0.1			foo.localhost
 ```
@@ -19,7 +19,7 @@ This tutorial extends the [Microsites Theming overview](https://github.com/edx/e
     ...
   ```
 + If you are developing locally, you need to add your newly created *edx-microsite/* folder to vagrant's [synced folders](https://docs.vagrantup.com/v2/synced-folders/) by modifying the `Vagranfile`. An example of a configured *Vagrantfile* is provided in this repo.
-+ Edit the */edx/app/edxapp/lms.env.json* file via `sudo nano /edx/app/edxapp/lms.env.json`  by adding the following lines:
++ Edit the *lms.env.json* file via `sudo nano /edx/app/edxapp/lms.env.json`  by adding the following lines:
   ```
   ...
   "FEATURES": {
