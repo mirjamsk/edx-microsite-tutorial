@@ -64,4 +64,4 @@ This tutorial extends the [Microsites Theming overview](https://github.com/edx/e
   [lms.startup] startup.py:127 ­ Loading microsite 
   /edx/app/edxapp/edx­microsite/foo
   ```
-+ If things are configured correctly, you should be able to bring up a web browser and go to http://foo.localhost:8000​
++ You should now be able to bring up a web browser and go to http://foo.localhost:8000​
