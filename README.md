@@ -64,4 +64,5 @@ This tutorial extends the [Microsites Theming overview](https://github.com/edx/e
   [lms.startup] startup.py:127 ­ Loading microsite 
   /edx/app/edxapp/edx­microsite/foo
   ```
-+ You should now be able to bring up a web browser and go to http://foo.localhost:8000​
++ You should now be able to bring up a web browser and go to http://foo.localhost:8000
++ In order for a course to appear in the site catalog, you will need to create it in Studio with `organization` set to ‘FooX’.
