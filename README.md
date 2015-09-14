@@ -6,7 +6,7 @@ This tutorial extends the [Microsites Theming overview](https://github.com/edx/e
  127.0.0.1			foo.localhost
 ```
 + If you are developing locally, stop all other running vagrant images of Open edX
-+ Copy the *edx-microsite/* directory from this repo inside a parent directory to *edx-platform/*. 
++ Copy the *edx-microsite/* directory from this repo inside a parent directory to *edx-platform/* 
  + This should leave your folder structure looking like this:
   ```
   - /
